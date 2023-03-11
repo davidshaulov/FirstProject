@@ -5,4 +5,6 @@ class ILS:
         return 0.28
 
     def calculate(self, value_to_convert):
-        print(value_to_convert * self.get_value())
+        result = value_to_convert * self.get_value()
+        print(result)
+
