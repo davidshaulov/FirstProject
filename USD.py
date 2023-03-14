@@ -1,3 +1,9 @@
+"""
+this function make calculate between the
+input and the dollar exchange rate
+"""
+
+
 class USD:
 
     @staticmethod
@@ -7,3 +13,5 @@ class USD:
     def calculate(self, value_to_convert):
         result = value_to_convert * self.get_value()
         print(result)
+        return result
+
