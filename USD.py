@@ -12,6 +12,6 @@ class USD:
 
     def calculate(self, value_to_convert):
         result = value_to_convert * self.get_value()
-        print(result)
+        print("%.1f" % result)
         return result
 

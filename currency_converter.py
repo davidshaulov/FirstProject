@@ -1,6 +1,8 @@
 from ILS import ILS
 from USD import USD
+import os
 list = []
+
 
 """------this function is checking if the value to convert is number or not------"""
 
@@ -29,12 +31,14 @@ def more_conversion():
             print("Thanks for using our currency converter.\n","-" * 39)
             result_file = open("C:/results.txt", 'r+')
             result_file.write(str(list))
+            os.startfile("C:/results.txt")
             break
         else:
             continue
 
 
 """------this function gets the conversion choice and make the convert------"""
+
 
 def get_user_value():
     welcome_flag = 1
